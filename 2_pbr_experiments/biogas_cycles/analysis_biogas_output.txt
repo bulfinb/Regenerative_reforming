@@ -1,0 +1,41 @@
+Counter Current, 3 biogas cycles
+relative error mass balance: 0.042426406871192854
+CH4, mean x, max x = -1.9703105398170468e-05 5.26e-06
+O2, mean x, max x = -8.70728259493829e-05 4.0090000000000004e-05
+timeswitches  [0, np.float64(924.332154), np.float64(2324.332253), np.float64(3169.330794), np.float64(4554.331129), np.float64(5409.331115), np.float64(6885.33081)]
+3
+3
+0.04190413957526394 0.04072312655771683
+0.04180445629120288 0.040644480691375745
+0.04177241525604232 0.04060719970732522
+0.008291816639868135 0.004642517122113296 0.011530344776419139 -4.676929214892201e-06 0.41921877665230844 0.41933019674569366
+0.007759790626600647 0.00435308322265703 0.010839927118184683 -1.5314883359214697e-05 0.35581279545695593 0.35589454019234257
+0.00780189004072757 0.004429475638092534 0.010803042319479192 -1.605990795631948e-05 0.3813926643514238 0.381472074637755
+--- Per-cycle carbon retention check (coke accumulation) ---
+Cycle 1: net_C_retained_red = 0.001416 mol, net_C_retained_ox = 0.001181 mol, net_C_retained_total = 0.002597 mol
+Cycle 2: net_C_retained_red = 0.001294 mol, net_C_retained_ox = 0.001160 mol, net_C_retained_total = 0.002454 mol
+Cycle 3: net_C_retained_red = 0.001451 mol, net_C_retained_ox = 0.001165 mol, net_C_retained_total = 0.002616 mol
+Cumulative net C retained after 3 cycles [mol] =  0.007666766415512987
+--- Mean per-cycle inlet amounts (simulation inputs) ---
+n_CH4_in_red (mean/cycle) [mol] =       0.00795116576906545
+n_CO2_in_red (mean/cycle) [mol] =       0.0044750253276209535
+n_Ar_in_red (mean/cycle) [mol] =        0.37304855439020973
+n_CO2_in_ox (mean/cycle) [mol] =        0.04182700370750305
+--- Input molar quantities (summed over 3 cycles) ---
+n_CH4_in_red [mol] =   0.02385349730719635
+n_CO2_in_red [mol] =   0.01342507598286286
+n_CO2_in_ox [mol] =    0.12548101112250915
+n_CeO2 [mol] =         1.6982929918542362  (m_CeO2 = 292.3 g, M_CeO2 = 172.114 g/mol)
+3 cycle cumulative mass balance results
+R_feed (CO2/CH4) =     5.2604869427114505
+R_prod (CO/CH4) =      3.8687319433693697
+Reduction X_CH4 =      1.000807070454579
+Reduction Y_CO2 =      0.8278969736342315
+Reduction Y_H2O =      0.9950935452722386
+Reduction C_balance =  0.8883926641438524
+Reduction C_loss =  0.00416056224942165
+m_C [mg] =  49.926746993059794
+Oxidation X_CO2 =      0.763374396672631
+Oxidation Y_CO =       0.7354322870679499
+Oxidation C_balance =  0.972057890395319
+Total O_balance =      0.9420320948176677

@@ -1,0 +1,20 @@
+\begin{table}[h!]
+  {\centering
+  \begin{tabular}{l c c c}
+    \hline
+	\vspace{0.1 cm}    
+    
+	Length & $L$    & $29.1$  & $\mathrm{[cm]}$    \\
+	Diameter & $d$    & $2.6$  & $\mathrm{[cm]}$    \\
+	Mass loading & $m_\mathrm{CeO_2}$    & $292.3$  & $\mathrm{[g]}$ \\
+	Temperature  & $T_\mathrm{set}$    & $1203$  & $\mathrm{[K]}$ \\
+	Pressure & $p$    & $~1.03$  & $\mathrm{[bar]}$ \\
+	Granule void fraction & $\varepsilon_\mathrm{granule}$ & $~0.56 \pm 0.05$ & $\mathrm{[-]}$ \\
+	Bed void fraction & $\varepsilon_\mathrm{bed}$ & $~0.4 \pm 0.05$ & $\mathrm{[-]}$ \\
+    \hline
+   
+    \end{tabular}  
+\caption{Parameters of the packed-bed reactor.}
+\label{tab1}%
+  }
+\end{table}
